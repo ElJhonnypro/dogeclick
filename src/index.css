@@ -3,3 +3,7 @@
   margin: 0;
   top: 0;
 }
+
+body{
+  font-family: sans-serif,"Fira Code";
+}

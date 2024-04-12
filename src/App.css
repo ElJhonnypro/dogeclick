@@ -1,0 +1,42 @@
+
+#root{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.app .botondoge{
+  border-radius: 5px;
+  margin-top: 2vh;
+  border-width: 0.5px;
+  border-color: black;
+  border-style: solid;
+  transition: all .1s;
+}
+
+.app .botondoge:hover{
+  border-color: #368100;
+  border-width: 0.8vh;
+  transition: all .1s;
+}
+
+.app .botondoge:active{
+  border-color: #00b1d4;
+  border-width: 1vh;
+
+}
+
+
+.app {
+  text-align: center;
+}
+
+.botondoge{
+  width: 20vh;
+}
+
+.mensajelevel {
+  color: #48ad00;
+
+}
