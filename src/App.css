@@ -15,11 +15,6 @@
   transition: all .1s;
 }
 
-.app .botondoge:hover{
-  border-color: #368100;
-  border-width: 0.8vh;
-  transition: all .1s;
-}
 
 .app .botondoge:active{
   border-color: #00b1d4;
