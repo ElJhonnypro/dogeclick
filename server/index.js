@@ -7,7 +7,8 @@ const app = express();
 
 // Define una ruta básica para el inicio que sirve los archivos estáticos de React
 app.get("*", (req, res) => {
-    res.sendFile(path.join(__dirname,'../','build','index.html'))
+  res.send("jola")  
+  // res.sendFile(path.join(__dirname,'../','build','index.html'))
 })
 
 app.use(express.static(path.join(__dirname, '../', 'build', 'index.html')))
