@@ -35,3 +35,8 @@
   color: #48ad00;
 
 }
+
+.verde {
+  background-color: #48ad00;
+  transition: all 1s;
+}

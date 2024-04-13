@@ -10,8 +10,8 @@ app.get("*", (req, res) => {
     res.sendFile(path.join(__dirname,'../','build','index.html'))
 })
 
-// Inicia el servidor en el puerto 3000
-const puerto = 3000;
-app.listen(puerto, () => {
-  console.log(`Servidor Express escuchando en el puerto ${puerto}`);
+app.use(express.static(path.join(__dirname, '../', 'build', 'index.html')))
+console.log(path.join(__dirname, '../', 'build'))
+app.listen(3000, () => {
+  console.log(`Servidor Express`);
 });
