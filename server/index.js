@@ -7,7 +7,7 @@ const app = express();
 
 // Define una ruta básica para el inicio que sirve los archivos estáticos de React
 app.get("*", (req, res) => {
-    res.sendFile('../','build','index.html')
+    res.sendFile(path.join(__dirname,'../','build','index.html'))
 })
 
 // Inicia el servidor en el puerto 3000
