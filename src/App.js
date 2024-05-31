@@ -6,7 +6,7 @@ function App() {
   const [count, setCount] = useState(0);
   const [level, setLevel] = useState(0);
   const [mensaje, setMensaje] = useState("");
-  const mensajes = ["¡Muy bien!", "¡Felicidades!", "¡VAMOS A OTRO NIVEL!", "¡Sigue así!"];
+  const mensajes = ["¡Muy bien!", "¡Felicidades!", "¡VAMOS A OTRO NIVEL!", "¡Sigue así","Vamos Que Tu Puedes"];
 
   const getRandomMessage = () => {
     const randomIndex = Math.floor(Math.random() * mensajes.length);
